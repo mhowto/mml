@@ -3,7 +3,6 @@
 
 #include <Eigen/Dense>
 using Eigen::MatrixXd;
-using Eigen::Vector2d;
 
 class Base {
 public:
