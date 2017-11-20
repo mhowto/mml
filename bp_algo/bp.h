@@ -23,7 +23,7 @@ public:
     MatrixXd predict(MatrixXd x);
 
 private:
-    int  _n_hidden;
-    int _epochs;
+    unsigned int _n_hidden;
+    unsigned int _epochs;
     double _learn_rate;
 };

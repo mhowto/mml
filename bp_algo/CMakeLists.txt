@@ -9,7 +9,7 @@ include_directories(${GTEST_INCLUDE_DIR})
 set(EIGEN_ROOT /usr/include/eigen3)
 include_directories(${EIGEN_ROOT})
 
-set(SOURCE_FILES main.cpp bp.cpp)
+set(SOURCE_FILES main.cpp bp.cpp random.cpp)
 add_executable(bp ${SOURCE_FILES})
 
 add_executable(runRandomTests random_test.cpp random.cpp)
